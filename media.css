@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1140px) {
+
+    nav {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .around {
+        position: absolute;
+        right: 0;
+        margin: 0px 10px;
+    }
+
+    .home,
+    .buttonS {
+        display: none;
+    }
+
+    .main1 {
+        position: absolute;
+        left: -150%;
+        transition: all 0.1s;
+        z-index: 1;
+        width: 100%;
+
+    }
+
+    .main2 {
+        position: relative;
+        width: 100%;
+        height: 86vh;
+    }
+
+    .middel {
+        width: 90%;
+        height: 74vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .down {
+        width: 90%;
+        height: 150px;
+    }
+
+    .seekbar {
+        width: 90%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        margin: 0px 20px;
+    }
+
+    .in {
+        overflow: unset;
+        width: 90%;
+        text-align: center;
+    }
+
+    .fo {
+        width: 90%;
+        text-align: center;
+    }
+
+    .am ul  {
+        padding: 10px;
+        border: 2px solid;
+        height: 550px;
+        border-radius:10px ;
+    }
+    .am ul li {
+        height: 110px;
+    }
+
+    .oimg {
+        width: 140px;
+        height: 200px;
+    }
+
+    .oimg1 img {
+        margin: 5px;
+        width: 130px;
+        height: 130px;
+    }
+
+    .oimgtext {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .oimg2 {
+        position: absolute;
+        right: 25px;
+        top: 70px;
+       
+    }
+
+}
