@@ -40,7 +40,7 @@ async function aamir(folder) {
     currFolder = folder
 
    // let a = await fetch(`http://127.0.0.1:3000/${folder}/`)
-    let a = await fetch(`https://mohammadaamir284.github.io/Music-Studio/${folder}/`)
+    let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/${folder}/`)
     let response = await a.text();
 
     let div = document.createElement("div")
@@ -95,7 +95,7 @@ async function aamir(folder) {
 
 async function aamir2() {
    // let a = await fetch(`http://127.0.0.1:3000/maamir/`)
-    let a = await fetch(`https://mohammadaamir284.github.io/Music-Studio/maamir/`)
+    let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/maamir/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -109,7 +109,7 @@ async function aamir2() {
 
             let folder = e.href.split("/").slice(-2)[0]
           //  let a = await fetch(`http://127.0.0.1:3000/maamir/${folder}/info.json`)
-            let a = await fetch(`https://mohammadaamir284.github.io/Music-Studio/${folder}/info.json`)
+            let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/${folder}/info.json`)
             let response = await a.json();
             console.log(response)
 
