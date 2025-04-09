@@ -39,8 +39,8 @@ function convertSecondsToMMSS(seconds) {
 async function aamir(folder) {
     currFolder = folder
 
-   // let a = await fetch(`http://127.0.0.1:3000/${folder}/`)
-    let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/tree/main/${folder}/`)
+    //let a = await fetch(`http://127.0.0.1:3000/${folder}/`)
+   let a = await fetch(`${folder}/`)
     let response = await a.text();
 
     let div = document.createElement("div")
@@ -94,8 +94,8 @@ async function aamir(folder) {
 }
 
 async function aamir2() {
-   // let a = await fetch(`http://127.0.0.1:3000/maamir/`)
-    let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/tree/main/maamir/`)
+  //  let a = await fetch(`http://127.0.0.1:3000/maamir/`)
+    let a = await fetch(`maamir/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -108,8 +108,8 @@ async function aamir2() {
         if (e.href.includes("/maamir")) {
 
             let folder = e.href.split("/").slice(-2)[0]
-          //  let a = await fetch(`http://127.0.0.1:3000/maamir/${folder}/info.json`)
-            let a = await fetch(`https://github.com/Mohammadaamir284/Music-Studio/tree/main/${folder}/info.json`)
+           // let a = await fetch(`http://127.0.0.1:3000/maamir/${folder}/info.json`)
+           let a = await fetch(`mamir/${folder}/info.json`)
             let response = await a.json();
             console.log(response)
 
