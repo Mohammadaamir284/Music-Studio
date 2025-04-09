@@ -105,11 +105,11 @@ async function aamir2() {
     for (let index = 0; index < array.length; index++) {
         const e = array[index];
 
-        if (e.href.includes("/maamir")) {
+        if (e.href.includes("/maamir/")) {
 
             let folder = e.href.split("/").slice(-2)[0]
            // let a = await fetch(`http://127.0.0.1:3000/maamir/${folder}/info.json`)
-           let a = await fetch(`mamir/${folder}/info.json`)
+           let a = await fetch(`maamir/${folder}/info.json`)
             let response = await a.json();
             console.log(response)
 
