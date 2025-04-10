@@ -75,7 +75,7 @@ document.querySelector(".close").addEventListener("click", () => {
 //                     </li>`
 
 
-        
+
 
 //     }
 
@@ -87,7 +87,7 @@ document.querySelector(".close").addEventListener("click", () => {
 //         })
 //     })
 
-    
+
 
 
 
@@ -145,7 +145,7 @@ document.querySelector(".close").addEventListener("click", () => {
 
 //     document.querySelector(".fo").innerHTML = "00:00 / 00:00"
 
-  
+
 
 // })
 // aamir2()
@@ -233,17 +233,17 @@ async function aamir(folder) {
     let res = await fetch(`${folder}/info.json`);
     let text = await res.json();
     console.log(text)
-  
-   
+
+
     maamir = text.songs;
-  
-    
-  
+
+
+
     let songUL = document.querySelector(".am ul");
     songUL.innerHTML = "";
-  
+
     for (const song of maamir) {
-      songUL.innerHTML += `
+        songUL.innerHTML += `
         <li>
           <div class="ekdiv">
             <div class="ekdiv1">
@@ -260,15 +260,15 @@ async function aamir(folder) {
           </div>
         </li>`;
     }
-  
+
     // Add click event to each li
     Array.from(document.querySelectorAll(".am li")).forEach((e, i) => {
         e.addEventListener("click", () => {
             playMusic(maamir[i].file);
         });
     });
-  }
-  
+}
+
 
 async function aamir2() {
     let a = await fetch("songsList.json");
@@ -309,7 +309,7 @@ const playMusic = ((track, pause = false) => {
     document.querySelector(".fo").innerHTML = "00:00 / 00:00";
 });
 
-    
+
 
 
 
@@ -333,18 +333,23 @@ async function main() {
     });
 
     playsongs.addEventListener("timeupdate", () => {
+        const percentage = (playsongs.currentTime / playsongs.duration) * 100;
         document.querySelector(".fo").innerHTML = `${convertSecondsToMMSS(playsongs.currentTime)}/${convertSecondsToMMSS(playsongs.duration)}`;
         document.querySelector(".gola").style.left = (playsongs.currentTime / playsongs.duration) * 98 + "%";
+        document.querySelector(".seekbar").style.background = `linear-gradient(to right,rgb(168, 48, 17) ${percentage}%, #ccc ${percentage}%)`;
     });
 
     document.querySelector(".seekbar").addEventListener("click", e => {
         playsongs.currentTime = playsongs.duration * (e.offsetX / e.target.getBoundingClientRect().width);
+
     });
+
+   
 
     playsongs.addEventListener("ended", () => {
         let currentFile = playsongs.src.split("/").slice(-1)[0];
         let index = maamir.findIndex(song => song.file === currentFile);
-    
+
         if (index !== -1 && index + 1 < maamir.length) {
             playMusic(maamir[index + 1].file);
         } else {
