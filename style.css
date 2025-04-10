@@ -346,3 +346,10 @@ a {
     text-align: center;
     font-size: 25px;
 }
+
+.burger{
+    display: none;
+}
+.close{
+    display: none;
+}

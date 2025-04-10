@@ -103,5 +103,11 @@
         top: 70px;
        
     }
+    .burger{
+        display: block;
+    }
+    .close{
+        display: block;
+    }
 
 }
