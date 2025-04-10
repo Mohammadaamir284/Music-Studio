@@ -1,4 +1,22 @@
 {
-    "title":"Album2"
-   
+    "title":"Album2",
+    "songs": [
+    {
+      "file": "Bhaag DK Bose Aandhi Aayi.mp3",
+      "name": "Bhaag DK Bose Aandhi Aayi"
+    },
+    {
+      "file": "CHAL DIYE TUM KAHAN.mp3",
+      "name": "CHAL DIYE TUM KAHAN"
+    },
+    {
+      "file": "Cheri Cheri.mp3",
+      "name": "Cheri Cheri"
+    },
+    {
+      "file":  "Counting Stars.mp3",
+      "name": "Counting Star"
+    }
+  ]
 }
+

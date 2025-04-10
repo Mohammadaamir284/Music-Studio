@@ -1,4 +1,20 @@
 {
-   "title":"Album5"
-
+   "title":"Album5",
+   "songs": [
+    {
+      "file":  "Dandelions.mp3",
+      "name": "Dandelions"
+    },
+    {
+      "file": "FRIENDS.mp3",
+      "name":  "FRIENDS"
+    },
+    {
+      "file":  "Har Funn Maula.mp3",
+      "name":  "Har Funn Malua"
+    }
+    
+  ]
+   
 }
+  

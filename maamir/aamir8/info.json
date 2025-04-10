@@ -1,3 +1,14 @@
 {
-    "title":"Album8"
+    "title":"Album8",
+    "songs": [
+    {
+      "file":  "Abdullahpur Ka Devdas.mp3",
+      "name": "Abdullhapur Ka Devdas"
+    },
+    {
+      "file": "Until i Found You.mp3",
+      "name":  "Until i Found You"
+    }
+   
+  ]
 }

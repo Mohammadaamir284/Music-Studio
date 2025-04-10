@@ -1,3 +1,15 @@
 {
-    "title":"Album7"
+    "title":"Album7",
+    
+    "songs": [
+    {
+      "file": "AUR  KABHI KABHI.mp3",
+      "name": "AUR KABHI KABHI"
+    },
+    {
+      "file": "Beggin.mp3",
+      "name":  "Beggin"
+    }
+   
+  ]
 }

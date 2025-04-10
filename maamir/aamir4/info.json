@@ -1,3 +1,21 @@
 {
-    "title":"Album4"
+    "title":"Album4",
+    "songs": [
+    {
+      "file":  "Human.mp3",
+      "name":  "Human"
+    },
+    {
+      "file":  "I Can Do Anything.mp3",
+      "name":  "I Can Do Anything"
+    },
+    {
+      "file":  "I Wanna Be Yours.mp3",
+      "name":  "I Wanna Be Your"
+    },
+    {
+      "file":  "ibadat Mohabbat.mp3",
+      "name":  "ibadat Mohabbat"
+    }
+  ]
 }

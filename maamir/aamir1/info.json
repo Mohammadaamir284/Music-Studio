@@ -1,5 +1,23 @@
 {
-    "title":"Album1"
+    "title":"Album1",
+    "songs": [
+    {
+      "file": "Adele  Skyfall.mp3",
+      "name": "Adele Skyfall"
+    },
+    {
+      "file": "Afghan Jalebi Ya Baba.mp3",
+      "name": "Afhgan jalebi Ya Baba"
+    },
+    {
+      "file": "Another Love.mp3",
+      "name": "Anohter Love3"
+    },
+    {
+      "file": "AUR  HUMSAFA.mp3",
+      "name": "AUR HUMSAFA"
+    }
+  ]
     
 }
     

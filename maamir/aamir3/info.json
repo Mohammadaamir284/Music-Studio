@@ -1,3 +1,21 @@
 {
-    "title":"Album3"
+    "title":"Album3",
+    "songs": [
+    {
+      "file": "Ik Lamha ft Maya Ali.mp3",
+      "name": "ik Lmaha ft Maya Ali"
+    },
+    {
+      "file": "Imagine Dragons  Believer.mp3",
+      "name": "Imagine Dragons Believer"
+    },
+    {
+      "file":"Imagine Dragons  Bones.mp3",
+      "name": "Imagine Dragons Bones"
+    },
+    {
+      "file": "Imagine Dragons  JID  Enemy.mp3",
+      "name": "Imagine Dragons JID Enemy"
+    }
+  ]
 }

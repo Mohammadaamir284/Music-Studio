@@ -1,3 +1,26 @@
 {
-    "title":"Album6"
+    "title":"Album6",
+    "songs": [
+    {
+      "file":  "INSANE.mp3",
+      "name": "INSANE"
+    },
+    {
+      "file":  "LET ME LOVE YOU.mp3",
+      "name":  "LET ME LOVE YOU"
+    },
+    {
+      "file":  "Lukas Graham  7 Years.mp3",
+      "name":  "Lukas Graham 7 Years"
+    },
+    {
+      "file":  "Set Fire To The Rain.mp3",
+      "name":  "Set To The Rain"
+    },
+    {
+      "file":   "Sheeran  Shape of You.mp3",
+      "name":  "Sheera Shape of You"
+    }
+    
+  ]
 }
